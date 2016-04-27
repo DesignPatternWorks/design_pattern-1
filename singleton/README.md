@@ -32,7 +32,7 @@
 
 ## c++
 
-1. In C++11 statics are initialized in a thread safe way.
+1. In C++11 statics are initialized in a thread safe way: Object initialization will be made only by one thread, other threads will wait till it complete.
 
 2. 静态成员变量初始化顺序不依赖构造函数, 得看编译器心情的, 没法保证初始化顺序 
 
